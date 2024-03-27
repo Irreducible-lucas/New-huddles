@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: "open sans", sans-serif;
+}
+h1,button{
+    font-weight: 600;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+header{
+    background: url(bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    height: 35px;
+}
+
+.build-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px,0px,20px;
+}
+
+.build{
+    width: 45%;
+}
+.illus{
+    width: 55;
+}
+
+.build h1{
+    font-size: 42px;
+    padding-right: 40px;
+    margin:25px 0px;
+}
+
+.build p{
+    padding-right: 40px;
+    margin: 25px 0px;
+}
+
+.build button{
+    background-color: palevioletred;
+    color: white;
+    border-radius: 25px;
+    padding: 15px 70px;
+    border: none;
+    box-shadow: 0px 3px 16px rgb(171, 161, 161);
+}
+.services{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px 50px 65px;
+    box-shadow: 0px 3px 16px rgb(171, 161, 161);
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.service img{
+    max-width: 100%;
+    width: 520px;
+    padding: 15px 80px 15px 60px;
+}
+.content{
+    padding-left: 70px;
+}
+
+.content h2{
+    margin: 10px 0px;
+}
+
+.content p{
+    margin:20px 0px ;
+    width: 93%;
+}
+section{
+    margin: 0px 40px;
+    margin-top: 40px;
+}
+
+.promo{
+    position: relative;
+    max-width: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 60px;
+    background-color: white;
+    box-shadow: 0px 3px 16px rgb(171, 161, 161);
+    border-radius: 20px;
+    margin-bottom: -100px;
+}
+.promo h1{
+    margin-bottom: 15px;
+}
+
+.btn2{
+    margin-top: 20px;
+    padding: 24px 100px;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    box-shadow: 0px 3px 16px rgb(171, 161, 161);
+    text-align: center;
+    color: white;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 36, 36);
+    color: white;
+    padding: 200px,100px 30px;
+    font-size: .8rem;
+}
+.footer-logo{
+    width: 250px;
+    margin-top: 140px;
+    margin-left: 60px;
+}
+.footer-sec{
+    display: flex;
+    margin: 40px 0px;
+   }
+.sec-1{
+    width: 40%;
+    margin-left:70px; ;
+}
+.add{
+    display: flex;
+    align-items: flex-start;
+}
+.add img{
+    margin-top: 4px;
+    margin-right: 20px;
+}
+li{
+    margin-bottom: 20px;
+    padding-right:0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.sec-2,
+.sec-3,
+.sec-4{
+    width: 20%;
+    margin-left: 30px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+   
+}
+.fa-brands{
+    margin-left: 30px;
+}
+.copy{
+    text-align: right;
+}
